@@ -5,7 +5,7 @@ p {
 	margin-top: 100px;
 }
 
-button {
+.mybutton {
 	height: 100px;
 	width: 150px;
 	border-radius: 10px;
@@ -25,4 +25,12 @@ button {
 .repeat {
 	margin-top: 100px;
 	margin-left: 500px;
+}
+
+.start {
+	color:green;
+	height: 40px;
+	width: 80px;
+	font-size: 20px;
+	margin: 100px 50px 75px;
 }
