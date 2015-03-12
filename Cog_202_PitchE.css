@@ -23,14 +23,13 @@ p {
 }
 
 .repeat {
+	color:green;
 	margin-top: 100px;
 	margin-left: 500px;
+	font-size: 23px;
 }
 
-.start {
-	color:green;
-	height: 40px;
-	width: 80px;
-	font-size: 20px;
-	margin: 100px 50px 75px;
+img {
+	margin-top: 150px;
+	margin-left:400px;
 }
