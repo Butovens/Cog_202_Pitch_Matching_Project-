@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta charset="UTG-8">
+    <title>Experiment</title>
+    <link rel="stylesheet" href="Cog_202_PitchE.css">
+</head>
+
+<body bgcolor="#C0C0C0" text="black">
+    <p>Is the second tone lower or higher in pitch than the first tone?</p>
+    <button id="1" class="lower mybutton" onclick="make_choice1()">lower</button>
+    <button id="2" class="higher mybutton" onclick="make_choice2()">higher</button>
+    <button class="repeat mybutton" onclick="runFG()">repeat</button>
+    <audio src="D.mp3" autoplay="autoplay">
+    </audio>
+    <audio id="Anote" src="A.mp3">
+    </audio>
+</body>
+<script>
+setTimeout(function() {
+    document.getElementById("Anote").play();
+}, 1500);
+
+function runFG() {
+    setTimeout(function() {
+        var D = new Audio("D.mp3");
+        D.play();
+    }, 0);
+    setTimeout(function() {
+        var A = new Audio("A.mp3");
+        A.play();
+    }, 1500);
+
+};
+
+function make_choice1() {
+if (document.getElementById("1")) {
+    alert("WRONG...");
+    window.location="file:///Users/bmede/Desktop/Cog_202_Pitch_Matching_Project/Cog_202_PitchE4.html";
+}
+    };
+
+function make_choice2() {
+if (document.getElementById("2")) {
+    alert("CORRECT!!!");
+    window.location="file:///Users/bmede/Desktop/Cog_202_Pitch_Matching_Project/Cog_202_PitchE4.html";
+}
+	};
+
+</script>
+
+</html>
